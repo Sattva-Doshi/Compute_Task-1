@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.page-1 {
+    background-color: #8D5CF6;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #8D5CF6;
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 25px 27px;
+    font-size: 1.2em;
+}
+
+nav h3 {
+    font-size: 2em;
+}
+
+nav ul li:hover {
+    background-color: aliceblue;
+    color: #8D5CF6;
+    padding: 4px 12px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.btns {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.btns button {
+    width: 120px;
+    height: 38px;
+    background-color: #8D5CF6;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.btns button:nth-child(2) {
+    background-color: #FF7B52;
+    border-radius: 6px;
+
+}
+
+.main {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.main h1 {
+    font-size: 3.3em;
+    margin-bottom: 40px;
+}
+
+.main p {
+    font-size: 1.3em;
+    word-spacing: 3px;
+}
+
+.main-btn {
+    margin-top: 50px;
+}
+
+.main-btn button {
+    height: 45px;
+    width: 150px;
+    background-color: #8D5CF6;
+    border: 2px solid #FF7B52;
+    color: #FF7B52;
+    cursor: pointer;
+}
+
+.main-btn button:nth-child(1) {
+    background-color: #FF7B52;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.page-2 {
+    background-color: #26335D;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    padding: 110px 0px 30px 195px;
+    left: 10%;
+    top: 15%;
+}
+
+.top p {
+    color: #8D5CF6;
+}
+
+.top h1 {
+    color: white;
+    font-size: 2.2em;
+    margin: 8px 0px;
+}
+
+.top h4 {
+    color: white;
+    font-size: 0.8em;
+    word-spacing: 2px;
+    opacity: 0.8;
+}
+
+.card {
+    background-color: white;
+    width: 17vw;
+    height: 43vh;
+}
+
+.card i {
+    padding: 50px 80px 50px 50px;
+    font-size: 2em;
+    color: #FF7B52;
+}
+
+.line {
+    height: 3px;
+    width: 4vw;
+    margin-left: 3vw;
+    background-color: #E74040;
+    margin-top: 20px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-left: 3vw;
+    font-weight: 950;
+}
+
+.card p {
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.page-2-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 180px;
+}
+
+.card:nth-child(3) {
+    background-color: #8D5CF6;
+    margin-bottom: 150px;
+    color: white;
+}
+
+.card:nth-child(1) {
+    margin-bottom: 150px;
+}
+
+.main-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+    padding-top: 220px;
+}
+
+.girl img {
+    width: 30vw;
+}
+
+.right-txt h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.4em;
+    margin: 30px 0px;
+}
+
+.right-txt p {
+    color: white;
+    margin: 30px 0px;
+}
+
+.right-txt a {
+    color: #8D5CF6;
+    text-decoration: none;
+}
+
+.page-line {
+    height: 6px;
+    width: 6vw;
+    background-color: #E74040;
+}
+
+.main-2 {
+    padding-top: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating-card {
+    background-color: white;
+    height: 50vh;
+    width: 35.5vw;
+    text-align: center;
+}
+
+.rating-img img {
+    height: 16vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.star {
+    color: #F3CD03;
+    margin: 30px auto;
+}
+
+.rating-card h6 {
+    margin-top: 5px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 160px 150px 160px;
+}
+
+.margin {
+    padding-top: 250px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 80px 170px;
+    justify-content: space-evenly;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 20px;
+    width: 238px;
+    height: 375px;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 238px;
+    height: 231px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.profile-card h3 {
+    font-weight: 950;
+    font-size: 1em;
+    margin: 12px;
+}
+
+.profile-card p {
+    font-size: 0.7em;
+}
+
+.profile-card i {
+    color: #8D5CF6;
+    margin: 18px 12px 6px 12px;
+    font-size: 1.3em;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 325px;
+}
+
+.contact>a {
+    color: #8D5CF6;
+    font-size: 14px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    margin: 10px auto;
+    color: white;
+}
+
+.contact p {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+input {
+    margin-top: 80px;
+    width: 500px;
+    height: 8px;
+    padding: 15px;
+}
+
+span {
+    background-color: #8D5CF6;
+    height: 10px;
+    padding: 11px;
+    color: white;
+}
+
+footer {
+    background-color: #26335D;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.foot {
+    width: 249px;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer h4 {
+    margin-bottom: 25px;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.sale-card {
+    background-color: white;
+    height: 500px;
+    width: 240px;
+
+}
+
+.sale-card img {
+    height: 230px;
+    width: 100%;
+}
+
+.sale-card a {
+    color: #8D5CF6;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sale-card h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px 0px 20px 20px;
+}
+
+.sale-card p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px 10px 20px;
+}
+
+.down{
+    margin: 15px 0px 10px 20px; 
+    color: #333333;
+}
+
+.down i{
+    font-size: 1em;
+}
+
+.price{
+    margin: 15px 0px 10px 20px;
+    color: #8f8f8f;
+}
+.price i:nth-child(2){
+    color: #E74040;
+    margin-left: 7px;
+}
+
+.sale-card button{
+    background-color: white;
+    color: #8D5CF6;
+    border: 2px solid #8D5CF6;
+    border-radius: 20px;
+    font-size: 0.85em;
+    padding: 8px;
+    margin: 20px 0px 10px 20px;
+}
+
+.card-sale{
+    display: flex;
+    margin: 50px 120px;
+    align-items: center;
+    justify-content: space-evenly;
+}
